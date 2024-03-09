@@ -1,9 +1,10 @@
 import type { Request, Response, Application } from 'express';
+
 const cookieParser = require('cookie-parser');
 import express from 'express';
 const cors = require('cors');
 var logger = require('morgan');
-const path = require('path');
+// const path = require('path');
 // routes
 const post = require('../router/post')
 const user = require('../router/user')
