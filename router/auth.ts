@@ -1,7 +1,6 @@
 const express = require("express");
 import { PrismaClient } from '@prisma/client';
 import type { Request, Response } from 'express';
-
 const bcrypt = require("bcryptjs");
 const jwt = require("jsonwebtoken");
 const prisma = new PrismaClient()
